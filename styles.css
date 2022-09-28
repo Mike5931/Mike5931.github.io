@@ -1,0 +1,79 @@
+#email{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: large;
+}
+#javabar{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+#topnav{
+    background-color: #D8BFD8;
+}
+#email{
+    background-color: #D8BFD8;
+}
+/* From W3Schools */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-github{
+    background: white;
+    color: black;
+}
+.fa-google{
+    background: white;
+    color: red;
+}
+
+
+footer{
+    background-color: #D8BFD8;
+    margin-top: auto;
+}
+.progress-wrapper{
+    padding: 0.2rem;
+}
+.progress{
+    width: 100%;
+    max-width: 200px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+
+    min-height: 100%;
+}
+html{
+    height: 100%;
+}
+.navbar{
+    transition: all 0.3s ease;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-container::after{
+    content: '';
+    width: 100%;
+}
+.picture{
+    width: 256px;
+    height: 256px;
+}
+img{
+    border: 5px solid #555;
+}
